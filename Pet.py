@@ -6,9 +6,6 @@ class Pet:
         self.__name = n
         self.__age = a
 
-    def __str__(self):
-        return self.__name + " is " + str(self.__age) + " years old."
-
     def get_name(self):
         return self.__name
 
